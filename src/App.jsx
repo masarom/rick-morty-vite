@@ -74,7 +74,7 @@ function App() {
   const findCharacter = characters.find((eachCharacter) => eachCharacter.id === parseInt(characterId));
 
   return (
-    <div className='root'>
+    <div className='body'>
       <Routes>
         <Route
           path='/'
